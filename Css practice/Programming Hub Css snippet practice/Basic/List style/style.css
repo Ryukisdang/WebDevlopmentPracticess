@@ -1,0 +1,8 @@
+.main{
+  list-style: circle outside url(bullet1.png);
+  background-color: antiquewhite;
+}
+.sub{
+  list-style: square inside url(bullet2.png);
+  background-color: aqua;
+}

@@ -1,0 +1,8 @@
+.main{
+  list-style-type: circle;
+  list-style-position: outside;
+}
+.sub{
+  list-style-type: square;
+  list-style-position: inside;
+}

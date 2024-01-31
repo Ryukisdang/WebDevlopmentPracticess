@@ -1,0 +1,1 @@
+document.getElementById("h1").innerHTML = "Hello Tassang,I am controlled by JavaScript";

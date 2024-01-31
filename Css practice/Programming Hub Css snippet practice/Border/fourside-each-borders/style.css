@@ -1,0 +1,12 @@
+p.one{
+  border-style: dotted solid dashed double;
+}
+p.two{
+  border-style: dotted solid dashed;
+}
+p.three{
+  border-style: dotted solid;
+}
+p.four{
+  border-style: dotted;
+}

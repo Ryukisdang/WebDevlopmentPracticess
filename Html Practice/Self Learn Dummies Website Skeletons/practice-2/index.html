@@ -1,0 +1,38 @@
+<!-- Head elements& Scripts -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Practice-2" content="My first html Website">
+  <title>Practice-2</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /*Internal css*/
+    h1{
+      text-align: center;
+      color: black;
+      background-color: antiquewhite;
+    }
+  </style>
+
+ 
+</head>
+<body>
+  <!--Inline css-->
+  <h1 id="h1"> 
+    Hello Tassang
+  </h1>
+<script src="index.js"></script>
+
+  <h2 id="In" style="color:rgb(10, 26, 26); text-align: center;">This is second heading</h2>
+  <script >
+    //Handling with html dom object Remember Js Browser read line by line... Root to child....\\
+    document.getElementById("In").innerHTML = "Hello Universe,I am controlled by JavaScript";
+
+  </script>
+  
+</body>
+</html>

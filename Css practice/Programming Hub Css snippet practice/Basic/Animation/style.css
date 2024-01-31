@@ -1,0 +1,38 @@
+div{
+  width:100px;
+  height:150px;
+  position:relative;
+  text-align: center;
+  animation-name: right-bottom-left-end;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+/* Custom Animation code */
+@keyframes right-bottom-left-end{
+  0%{
+    background-color: red;
+    left:0px;
+    top:0px;
+  }
+  25%{
+    background-color:yellow;
+    left:200px;
+    top:0px;
+  }
+  50%{
+    background-color:green;
+    top:200px;
+    left:200px;
+  }
+  75%{
+    background-color:blue;
+    left:0px;
+    top:200px;
+  }
+  100%{
+    background-color:gray;
+    left:0px;
+    top:0px;
+  }
+}

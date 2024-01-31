@@ -1,0 +1,33 @@
+/* Parent-Body color purple */
+body{
+  background-color:#b810ef;
+}
+
+/* child inside body color white*/
+
+.white{
+  background-color: aquamarine;
+  width: 250px;
+  height: 400px;
+  border-radius: 2px;
+  padding: 0.5rem;
+
+}
+.blue{
+  background-color: blue;
+  width: 250px;
+  height: 400px;
+  border-radius: 2px;
+  padding: 0.5rem;
+
+}
+.insideIt{
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  border-radius: 2px;
+  padding: 2px 2px;
+  border-color: aliceblue;
+  border: 1px outset;
+
+}
